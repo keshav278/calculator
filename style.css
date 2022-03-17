@@ -1,0 +1,38 @@
+*{
+    font-size:larger;
+}
+
+body{
+    display: flex;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    
+}
+input{
+    text-align:right;
+}
+.buttons{
+     display:grid;
+     grid-template-columns: repeat(4,1fr);
+     width: auto;
+     
+
+}
+.display{
+    padding: 30px;
+}
+.buttons button{
+    padding: 30px;
+}
+
+.calculator{
+    display:flex;
+    flex-direction: column;
+    width: 500px;
+    margin: auto;
+    
+}
