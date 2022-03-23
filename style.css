@@ -23,16 +23,49 @@ input{
 
 }
 .display{
-    padding: 30px;
+    padding: 20px;
+    background-color: #ADD37E;
+    font-size: 80px;
+}
+.clear{
+    border-radius: 5px;
+    background-color: red;
+    color:white;
+    font-weight: bolder;
 }
 .buttons button{
     padding: 30px;
+    border-radius:5px;
+    
+}
+.num{
+    background-color: rgb(190, 189, 189);
+    color: white;
+    font-weight: bolder;
+}
+.divide,.mult,.add,.subt,.dot{
+    background-color: grey;
+    color: white;
+    font-weight: bolder;
+}
+.divide:focus,.mult:focus,.add:focus,.subt:focus{
+    background-color: rgb(236, 168, 168);
 }
 
+.result{
+    background-color: orange;
+    color: white;
+    font-weight: bolder;
+}
+.result:focus{
+    background-color: orangered;
+}
 .calculator{
     display:flex;
     flex-direction: column;
     width: 500px;
     margin: auto;
-    
+    border:30px solid black;
+    border-radius: 10px;
+    background-color: black;
 }
